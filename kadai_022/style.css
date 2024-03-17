@@ -58,12 +58,13 @@ main {
 }
 
 h2 {
-  border-bottom: 3px dotted rgb(238, 122, 122);
+  font-size: 25px;
+  border-bottom: 3px dotted rgb(236, 122, 122);
 }
 
 h2::before {
   content: "●";
-  color: rgb(97, 206, 249);
+  color: rgb(239, 111, 139);
 }
 
 div p:nth-of-type(2)::first-letter {
